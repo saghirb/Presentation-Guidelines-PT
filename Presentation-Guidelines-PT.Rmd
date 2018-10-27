@@ -1,0 +1,205 @@
+---
+title: "Orientações para Fazer uma Apresentação"
+
+# Use letters for affiliations
+author:
+  - name: Saghir Bashir (traduzido por Ana Macedo)
+#     affiliation: a
+# address:
+#   - code: a
+#     address: ilustat \url{www.ilustat.com}
+
+# For footer text  TODO(fold into template, allow free form two-authors)
+# I will use it to place the copyright notice (Creative Comments Share Alike)
+lead_author_surname: "[CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/) [ilustat](http://ilustat.com/) $\\bullet$ [info@ilustat.com](mailto:info@ilustat.com)"
+
+# Place DOI URL or CRAN Package URL here
+doi: "Saiba mais em http://ilustat.com/resources/ $\\bullet$ [CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/) [ilustat](http://ilustat.com/) $\\bullet$ [info@ilustat.com](mailto:info@ilustat.com)"
+
+# Abstract
+abstract: |
+  Boas apresentações aumentam a sua visibilidade. Fazer apresentações
+  gratificantes e interessantes só depende de preparação, preparação e
+  preparação. Continue a ler para descobrir como.
+
+# Optional: Acknowledgements
+acknowledgements: |
+  Este documento foi traduzido da versão em inglês que pode ser descarregada em:
+  http://ilustat.com/shared/Presentation-Guidelines-EN.pdf
+  
+# Optional: One or more keywords
+keywords:
+  - Apresentação
+  - Prepare
+  - Prepare
+  - Prepare
+
+# Paper size for document, values of letterpaper and a4paper
+papersize: a4
+
+# Font size of the document, values of 9pt (default), 10pt, 11pt and 12pt
+fontsize: 10pt
+
+# Optional: Force one-column layout, default is two-column
+#one_column: true
+
+# Optional: Enables lineno mode, but only if one_column mode is also true
+#lineno: true
+
+# Optional: Enable one-sided layout, default is two-sided
+one_sided: false
+
+# Optional: Enable section numbering, default is unnumbered
+numbersections: true
+
+# Optional: Specify the depth of section number, default is 5
+secnumdepth: 3
+
+# Optional: Skip inserting final break between acknowledgements, default is false
+skip_final_break: true
+
+# Optional: Bibliography 
+# bibliography: pinp
+
+# Optional: Enable a 'Draft' watermark on the document
+watermark: FALSE
+
+# Customize footer, eg by referencing the vignette
+footer_contents: "Presentation Guidelines"
+
+# Produce a pinp document
+output: 
+  pinp::pinp:
+    fig_caption: yes
+    collapse: true
+    keep_tex: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = TRUE) #, knitr.table.format = 'latex')
+# library(tidyverse)
+# library(knitr)
+# library(kableExtra)
+options(width=45)
+knitr::opts_chunk$set(fig.pos = 'H')
+```
+
+## Prepare, Pratique & Concretize  
+
+- Prepare um bom conteúdo que seja esteticamente apelativo.
+- Faça o conteúdo fluir como uma história **interessante**. Assim será mais
+  fácil para si explicar e para a audiência acompanhar o que está a ser dito.
+- Leia, reveja, corte, corte e corte.
+- Filme-se a praticar. Veja o filme (sim, custa). Mantenha o que funciona e 
+  melhore o resto. Repita até estar tudo bem.
+- Impressione a sua audiência apresentando com paixão contagiante e 
+  motivação sincera.
+- Estar nervoso é normal, uma vez que pretende fazer uma apresentação 
+  arrasadora. Um excesso de confiança seria pior.
+
+## Cortesia para com a Audiência  
+
+- Perceba quem será o seu público-alvo.
+- Prepare a sua apresentação para acabar à hora prevista ou um pouco antes.
+- Escolha auxiliares visuais que causem impacto e o efeito desejado.
+- Lembre-se que a sua audiência sabe ler, por isso não precisa de fazê-lo.
+- Fale claramente e alto o suficiente para ser ouvido ao fundo da sala.
+- Torne a experiência estimulante e interessante.
+
+## Slides  
+
+- Limite o número de slides ao que a audiência consegue digerir (por
+  exemplo, um slide por minuto pode ser demasiado).
+- Recorra bastante ao espaçamento para que os conteúdos possam ser vistos 
+  pelo público sentado no fundo da sala.
+- Conceba os slides como forma de comunicar as suas mensagens e não de 
+  impressionar ou se exibir artificialmente.
+- Alterne os conteúdos dos slides entre texto, imagens, tabelas, gráficos 
+  e possivelmente uma mistura destes.
+
+## Design & Estilo  
+
+- Use um tema uniforme (isto é, layout, tipos de letra e cores).
+- A falta de uniformidade distrai a audiência dos conteúdos.
+- **Dica de profissional:** recorra a um designer gráfico  
+
+## Cores  
+
+- Use um esquema de cores contrastante para que a informação ressalte e
+  seja visível ao fundo da sala.
+- Certifique-se de que o fundo não entra em conflito com o esquema de cores 
+  nem que é uma distracção irritante.
+- A incapacidade para distinguir o verde do vermelho é relativamente comum, 
+  por isso use alternativas que possam ser vistas por todos.
+- É difícil ver cores claras (amarelo, por exemplo) e fluorescentes.
+
+## Tipos & Tamanhos de Letra  
+
+- Use um tipo de letra sem serifa (por exemplo, Arial), já que são mais
+  fáceis de ler.
+- Use, no mínimo, um tamanho de letra 24.
+- Pode usar tamanho 44/40 para títulos, 36/32 para pontos principais, 28/24 
+  para pontos secundários.
+- A resposta a *“Conseguem ler isto aí ao fundo?”* é ***“Não!”***. Use o tipo 
+  e tamanho de letra certos.
+- Estas regras também valem para álgebra, gráficos e tabelas.
+
+## MAIÚSCULAS e Itálico  
+
+- Só use MAIÚSCULAS para dar ÊNFASE ou no caso de siglas, já que SÃO MAIS 
+  DIFÍCEIS DE LER.
+- Use o *Itálico* em “*citações*” ou para *realçar* (lembre-se que pode ser
+  difícil de distinguir do texto normal).
+- Use maiúsculas e itálico de forma uniforme.
+
+## Listas de pontos  
+
+- As listas são mais fáceis de ler do que texto denso.
+- Reduza cada ponto a uma linha sempre que possível.
+- Minimize o número de pontos por slide.
+- Limite-se a um máximo de 8 linhas de texto, sob a forma de lista, por slide.
+
+## Álgebra  
+
+- Sempre que puder, evite álgebra e fórmulas. Podem ser difíceis de
+  acompanhar e explicar.
+- Use palavras para explicar conceitos importantes (por exemplo, “A
+  hemoglobina foi modelada em função da idade e do tratamento”).
+- Como alternativa, use palavras e letras gregas em conjunto, em vez de
+  *X*s e *Y*s. Por exemplo,
+$$Haemoglobin = \alpha + \beta.age + \gamma.treatment$$
+
+## Gráficos  
+
+- NÃO use gráficos tridimensionais (isto é, gráficos de barras/circulares)!
+- Elabore os seus gráficos cuidadosamente (sem distorções) a fim de comunicar 
+  a sua mensagem rápida e claramente.
+- Inclua zero no eixo vertical. Se isto não for possível, pense em usar um 
+  eixo diferente (por exemplo, um eixo com escala logarítmica).
+- Use um código de cores uniforme em todos os gráficos.
+- Use gráficos de alta qualidade com linhas grossas o suficiente para poderem 
+  ser vistas ao fundo.
+- Use o espaçamento para tornar a apresentação mais apelativa visualmente.
+- Pergunte-se se uma tabela não seria melhor?
+
+## Tabelas  
+
+- Planeie e estruture as tabelas cuidadosamente a fim de comunicar a sua mensagem 
+  rápida e claramente.
+- Não complique.
+- Use sempre o mesmo formato e layout (por exemplo, não inverta linhas e colunas).
+- Torne os números mais fáceis de ler arredondando-os sempre da mesma forma (por 
+  exemplo, 8,600 em vez de 8,579).
+- Use linhas horizontais e espaçamento apenas para tornar a apresentação mais 
+  apelativa.
+- Pergunte-se se um gráfico não seria melhor?
+
+## Imagens  
+
+- Escolha imagens que o ajudem a contar a sua história.
+- Escolha imagens com alta resolução.
+- Certifique-se de que tem direito a usá-las e indique a fonte.
+
+## Muito Bem  
+
+- Agora que está preparado, vá e dê o seu melhor!
