@@ -14,7 +14,7 @@ Está a organizar um evento, reunião, conferência ou workshop? Partilhe este g
 
 Fazer uma apresentação deixa-o nervoso? A publicação abaixo vai ajudá-lo a tornar os nervos num aliado, para assim conseguir fazer boas apresentações que aumentam a sua visibilidade.
 
-> [Boas Apresentações Aumentam a Sua Visibilidade](http://ilustat.com/post/great-presentations-raise-your-profile/)
+* Blog - [Boas Apresentações Aumentam a Sua Visibilidade](http://ilustat.com/post/great-presentations-raise-your-profile/)
 
 **Contribuidores**
 
