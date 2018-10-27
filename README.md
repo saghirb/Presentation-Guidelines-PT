@@ -1,3 +1,5 @@
+This is a Portuguese translation of the English version at https://github.com/saghirb/Presentation-Guidelines-EN
+
 Este documento foi traduzido da versão em inglês que pode ser descarregada em: https://github.com/saghirb/Presentation-Guidelines-EN
 
 # Orientações para Fazer uma Apresentação
