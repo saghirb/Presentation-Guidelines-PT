@@ -20,5 +20,5 @@ Fazer uma apresentação deixa-o nervoso? A publicação abaixo vai ajudá-lo a 
 
 **Contribuidores**
 
-Um muito obrigado aos [revisores e contribuidores](https://github.com/saghirb/Presentation-Guidelines-EN/blob/master/Contributors.md). 
+Um muito obrigado aos [revisores e contribuidores](https://github.com/saghirb/Presentation-Guidelines-PT/blob/master/Contributors.md). 
 
