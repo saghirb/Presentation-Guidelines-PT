@@ -23,16 +23,16 @@ abstract: |
   preparação. Continue a ler para descobrir como.
 
 # Optional: Acknowledgements
-acknowledgements: |
-  Este documento foi traduzido da versão em inglês que pode ser descarregada em:
-  http://ilustat.com/shared/Presentation-Guidelines-EN.pdf
+# acknowledgements: |
+#   Este documento foi traduzido da versão em inglês que pode ser descarregada em:
+#   http://ilustat.com/shared/Presentation-Guidelines-EN.pdf
   
 # Optional: One or more keywords
-keywords:
-  - Apresentação
-  - Prepare
-  - Prepare
-  - Prepare
+# keywords:
+#   - Apresentação
+#   - Prepare
+#   - Prepare
+#   - Prepare
 
 # Paper size for document, values of letterpaper and a4paper
 papersize: a4
@@ -65,7 +65,7 @@ skip_final_break: true
 watermark: FALSE
 
 # Customize footer, eg by referencing the vignette
-footer_contents: "Presentation Guidelines"
+footer_contents: "Orientações para Fazer uma Apresentação"
 
 # Produce a pinp document
 output: 
@@ -101,7 +101,7 @@ knitr::opts_chunk$set(fig.pos = 'H')
 
 - Perceba quem será o seu público-alvo.
 - Prepare a sua apresentação para acabar à hora prevista ou um pouco antes.
-- Escolha auxiliares visuais que causem impacto e o efeito desejado.
+- Escolha auxiliares visuais que causem impacto e tenham o efeito desejado.
 - Lembre-se que a sua audiência sabe ler, por isso não precisa de fazê-lo.
 - Fale claramente e alto o suficiente para ser ouvido ao fundo da sala.
 - Torne a experiência estimulante e interessante.
@@ -203,3 +203,5 @@ $$Haemoglobin = \alpha + \beta.age + \gamma.treatment$$
 ## Muito Bem  
 
 - Agora que está preparado, vá e dê o seu melhor!
+
+$~$
